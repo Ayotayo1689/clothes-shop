@@ -1,0 +1,43 @@
+.container{
+
+}
+.wrapper{
+padding: 50px;
+display: flex;
+flex-direction: row;
+}
+.imgcontainer{
+ flex: 1;
+}
+.image{
+width: 100%;
+height: 90vh;
+object-fit: cover;
+}
+.infocontainer{
+ flex: 1;
+ padding: 0 50px;
+}
+.title{
+font-weight: 200;
+}
+.desc{
+    margin: 20px 0px;
+}
+.price{
+font-weight: 100;
+font-size: 40px;
+}
+@media only screen and (max-width:450px){
+    .wrapper{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .image{
+        height: 40vh;
+    }
+    .infocontainer{
+        padding: 10px;
+    }
+   
+}
